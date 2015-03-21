@@ -62,6 +62,20 @@
                ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DCD3A6411ABDD6C80091A5BD"
+               BuildableName = "ZLSwipeableViewFrameworkTests.xctest"
+               BlueprintName = "ZLSwipeableViewFrameworkTests"
+               ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -97,6 +111,16 @@
                BlueprintIdentifier = "DC9687C21ABDD1BD00FDF776"
                BuildableName = "ZLSwipeableViewTests.xctest"
                BlueprintName = "ZLSwipeableViewTests"
+               ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DCD3A6411ABDD6C80091A5BD"
+               BuildableName = "ZLSwipeableViewFrameworkTests.xctest"
+               BlueprintName = "ZLSwipeableViewFrameworkTests"
                ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -19,11 +19,13 @@
 		092F0F661A05C9CA007CDDCC /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F0F651A05C9CA007CDDCC /* UIColor+FlatColors.m */; };
 		092F0F691A05DAF9007CDDCC /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F0F681A05DAF8007CDDCC /* CardView.m */; };
 		0971D4611A08425E00325B8D /* ZLSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971D45F1A08425E00325B8D /* ZLSwipeableView.m */; };
-		DC9687BE1ABDD1BD00FDF776 /* ZLSwipeableView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9687BD1ABDD1BD00FDF776 /* ZLSwipeableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC9687C41ABDD1BD00FDF776 /* ZLSwipeableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */; };
-		DC9687CD1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9687CC1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m */; };
-		DC9687D01ABDD1BD00FDF776 /* ZLSwipeableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */; };
-		DC9687D11ABDD1BD00FDF776 /* ZLSwipeableView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCD3A63D1ABDD6C80091A5BD /* ZLSwipeableViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD3A63C1ABDD6C80091A5BD /* ZLSwipeableViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCD3A6431ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD3A6381ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework */; };
+		DCD3A64C1ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD3A64B1ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests.m */; };
+		DCD3A64F1ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD3A6381ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework */; };
+		DCD3A6501ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCD3A6381ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCD3A6571ABDD6E20091A5BD /* ZLPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 090141491A37FF7900435455 /* ZLPanGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCD3A6581ABDD6E20091A5BD /* ZLSwipeableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0971D45E1A08425E00325B8D /* ZLSwipeableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +36,26 @@
 			remoteGlobalIDString = 092F0F2D1A05B474007CDDCC;
 			remoteInfo = ZLSwipeableViewDemo;
 		};
-		DC9687C51ABDD1BD00FDF776 /* PBXContainerItemProxy */ = {
+		DCD3A6441ABDD6C80091A5BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 092F0F261A05B474007CDDCC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC9687B81ABDD1BD00FDF776;
-			remoteInfo = ZLSwipeableView;
+			remoteGlobalIDString = DCD3A6371ABDD6C80091A5BD;
+			remoteInfo = ZLSwipeableViewFramework;
 		};
-		DC9687C71ABDD1BD00FDF776 /* PBXContainerItemProxy */ = {
+		DCD3A6461ABDD6C80091A5BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 092F0F261A05B474007CDDCC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 092F0F2D1A05B474007CDDCC;
 			remoteInfo = ZLSwipeableViewDemo;
 		};
-		DC9687CE1ABDD1BD00FDF776 /* PBXContainerItemProxy */ = {
+		DCD3A64D1ABDD6C80091A5BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 092F0F261A05B474007CDDCC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC9687B81ABDD1BD00FDF776;
-			remoteInfo = ZLSwipeableView;
+			remoteGlobalIDString = DCD3A6371ABDD6C80091A5BD;
+			remoteInfo = ZLSwipeableViewFramework;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -64,7 +66,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DC9687D11ABDD1BD00FDF776 /* ZLSwipeableView.framework in Embed Frameworks */,
+				DCD3A6501ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,12 +96,12 @@
 		092F0F681A05DAF8007CDDCC /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		0971D45E1A08425E00325B8D /* ZLSwipeableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableView.h; sourceTree = "<group>"; };
 		0971D45F1A08425E00325B8D /* ZLSwipeableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeableView.m; sourceTree = "<group>"; };
-		DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLSwipeableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9687BC1ABDD1BD00FDF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9687BD1ABDD1BD00FDF776 /* ZLSwipeableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableView.h; sourceTree = "<group>"; };
-		DC9687C31ABDD1BD00FDF776 /* ZLSwipeableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLSwipeableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9687CB1ABDD1BD00FDF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9687CC1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeableViewTests.m; sourceTree = "<group>"; };
+		DCD3A6381ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLSwipeableViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD3A63B1ABDD6C80091A5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD3A63C1ABDD6C80091A5BD /* ZLSwipeableViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableViewFramework.h; sourceTree = "<group>"; };
+		DCD3A6421ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLSwipeableViewFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD3A64A1ABDD6C80091A5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD3A64B1ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeableViewFrameworkTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9687D01ABDD1BD00FDF776 /* ZLSwipeableView.framework in Frameworks */,
+				DCD3A64F1ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,18 +120,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9687B51ABDD1BD00FDF776 /* Frameworks */ = {
+		DCD3A6341ABDD6C80091A5BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9687C01ABDD1BD00FDF776 /* Frameworks */ = {
+		DCD3A63F1ABDD6C80091A5BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9687C41ABDD1BD00FDF776 /* ZLSwipeableView.framework in Frameworks */,
+				DCD3A6431ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +143,8 @@
 			children = (
 				092F0F301A05B474007CDDCC /* ZLSwipeableViewDemo */,
 				092F0F4A1A05B474007CDDCC /* ZLSwipeableViewDemoTests */,
-				DC9687BA1ABDD1BD00FDF776 /* ZLSwipeableView */,
-				DC9687C91ABDD1BD00FDF776 /* ZLSwipeableViewTests */,
+				DCD3A6391ABDD6C80091A5BD /* ZLSwipeableViewFramework */,
+				DCD3A6481ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests */,
 				092F0F2F1A05B474007CDDCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,8 +154,8 @@
 			children = (
 				092F0F2E1A05B474007CDDCC /* ZLSwipeableViewDemo.app */,
 				092F0F471A05B474007CDDCC /* ZLSwipeableViewDemoTests.xctest */,
-				DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */,
-				DC9687C31ABDD1BD00FDF776 /* ZLSwipeableViewTests.xctest */,
+				DCD3A6381ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework */,
+				DCD3A6421ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,36 +227,36 @@
 			path = ../../ZLSwipeableView;
 			sourceTree = "<group>";
 		};
-		DC9687BA1ABDD1BD00FDF776 /* ZLSwipeableView */ = {
+		DCD3A6391ABDD6C80091A5BD /* ZLSwipeableViewFramework */ = {
 			isa = PBXGroup;
 			children = (
-				DC9687BD1ABDD1BD00FDF776 /* ZLSwipeableView.h */,
-				DC9687BB1ABDD1BD00FDF776 /* Supporting Files */,
+				DCD3A63C1ABDD6C80091A5BD /* ZLSwipeableViewFramework.h */,
+				DCD3A63A1ABDD6C80091A5BD /* Supporting Files */,
 			);
-			path = ZLSwipeableView;
+			path = ZLSwipeableViewFramework;
 			sourceTree = "<group>";
 		};
-		DC9687BB1ABDD1BD00FDF776 /* Supporting Files */ = {
+		DCD3A63A1ABDD6C80091A5BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC9687BC1ABDD1BD00FDF776 /* Info.plist */,
+				DCD3A63B1ABDD6C80091A5BD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DC9687C91ABDD1BD00FDF776 /* ZLSwipeableViewTests */ = {
+		DCD3A6481ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC9687CC1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m */,
-				DC9687CA1ABDD1BD00FDF776 /* Supporting Files */,
+				DCD3A64B1ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests.m */,
+				DCD3A6491ABDD6C80091A5BD /* Supporting Files */,
 			);
-			path = ZLSwipeableViewTests;
+			path = ZLSwipeableViewFrameworkTests;
 			sourceTree = "<group>";
 		};
-		DC9687CA1ABDD1BD00FDF776 /* Supporting Files */ = {
+		DCD3A6491ABDD6C80091A5BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC9687CB1ABDD1BD00FDF776 /* Info.plist */,
+				DCD3A64A1ABDD6C80091A5BD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,11 +264,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DC9687B61ABDD1BD00FDF776 /* Headers */ = {
+		DCD3A6351ABDD6C80091A5BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9687BE1ABDD1BD00FDF776 /* ZLSwipeableView.h in Headers */,
+				DCD3A63D1ABDD6C80091A5BD /* ZLSwipeableViewFramework.h in Headers */,
+				DCD3A6571ABDD6E20091A5BD /* ZLPanGestureRecognizer.h in Headers */,
+				DCD3A6581ABDD6E20091A5BD /* ZLSwipeableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +289,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DC9687CF1ABDD1BD00FDF776 /* PBXTargetDependency */,
+				DCD3A64E1ABDD6C80091A5BD /* PBXTargetDependency */,
 			);
 			name = ZLSwipeableViewDemo;
 			productName = ZLSwipeableViewDemo;
@@ -310,41 +314,41 @@
 			productReference = 092F0F471A05B474007CDDCC /* ZLSwipeableViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DC9687B81ABDD1BD00FDF776 /* ZLSwipeableView */ = {
+		DCD3A6371ABDD6C80091A5BD /* ZLSwipeableViewFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9687D21ABDD1BD00FDF776 /* Build configuration list for PBXNativeTarget "ZLSwipeableView" */;
+			buildConfigurationList = DCD3A6511ABDD6C80091A5BD /* Build configuration list for PBXNativeTarget "ZLSwipeableViewFramework" */;
 			buildPhases = (
-				DC9687B41ABDD1BD00FDF776 /* Sources */,
-				DC9687B51ABDD1BD00FDF776 /* Frameworks */,
-				DC9687B61ABDD1BD00FDF776 /* Headers */,
-				DC9687B71ABDD1BD00FDF776 /* Resources */,
+				DCD3A6331ABDD6C80091A5BD /* Sources */,
+				DCD3A6341ABDD6C80091A5BD /* Frameworks */,
+				DCD3A6351ABDD6C80091A5BD /* Headers */,
+				DCD3A6361ABDD6C80091A5BD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZLSwipeableView;
-			productName = ZLSwipeableView;
-			productReference = DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */;
+			name = ZLSwipeableViewFramework;
+			productName = ZLSwipeableViewFramework;
+			productReference = DCD3A6381ABDD6C80091A5BD /* ZLSwipeableViewFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DC9687C21ABDD1BD00FDF776 /* ZLSwipeableViewTests */ = {
+		DCD3A6411ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9687D51ABDD1BD00FDF776 /* Build configuration list for PBXNativeTarget "ZLSwipeableViewTests" */;
+			buildConfigurationList = DCD3A6541ABDD6C80091A5BD /* Build configuration list for PBXNativeTarget "ZLSwipeableViewFrameworkTests" */;
 			buildPhases = (
-				DC9687BF1ABDD1BD00FDF776 /* Sources */,
-				DC9687C01ABDD1BD00FDF776 /* Frameworks */,
-				DC9687C11ABDD1BD00FDF776 /* Resources */,
+				DCD3A63E1ABDD6C80091A5BD /* Sources */,
+				DCD3A63F1ABDD6C80091A5BD /* Frameworks */,
+				DCD3A6401ABDD6C80091A5BD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC9687C61ABDD1BD00FDF776 /* PBXTargetDependency */,
-				DC9687C81ABDD1BD00FDF776 /* PBXTargetDependency */,
+				DCD3A6451ABDD6C80091A5BD /* PBXTargetDependency */,
+				DCD3A6471ABDD6C80091A5BD /* PBXTargetDependency */,
 			);
-			name = ZLSwipeableViewTests;
-			productName = ZLSwipeableViewTests;
-			productReference = DC9687C31ABDD1BD00FDF776 /* ZLSwipeableViewTests.xctest */;
+			name = ZLSwipeableViewFrameworkTests;
+			productName = ZLSwipeableViewFrameworkTests;
+			productReference = DCD3A6421ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -363,10 +367,10 @@
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 092F0F2D1A05B474007CDDCC;
 					};
-					DC9687B81ABDD1BD00FDF776 = {
+					DCD3A6371ABDD6C80091A5BD = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					DC9687C21ABDD1BD00FDF776 = {
+					DCD3A6411ABDD6C80091A5BD = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 092F0F2D1A05B474007CDDCC;
 					};
@@ -387,8 +391,8 @@
 			targets = (
 				092F0F2D1A05B474007CDDCC /* ZLSwipeableViewDemo */,
 				092F0F461A05B474007CDDCC /* ZLSwipeableViewDemoTests */,
-				DC9687B81ABDD1BD00FDF776 /* ZLSwipeableView */,
-				DC9687C21ABDD1BD00FDF776 /* ZLSwipeableViewTests */,
+				DCD3A6371ABDD6C80091A5BD /* ZLSwipeableViewFramework */,
+				DCD3A6411ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -412,14 +416,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9687B71ABDD1BD00FDF776 /* Resources */ = {
+		DCD3A6361ABDD6C80091A5BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9687C11ABDD1BD00FDF776 /* Resources */ = {
+		DCD3A6401ABDD6C80091A5BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,18 +455,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9687B41ABDD1BD00FDF776 /* Sources */ = {
+		DCD3A6331ABDD6C80091A5BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9687BF1ABDD1BD00FDF776 /* Sources */ = {
+		DCD3A63E1ABDD6C80091A5BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9687CD1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m in Sources */,
+				DCD3A64C1ABDD6C80091A5BD /* ZLSwipeableViewFrameworkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,20 +478,20 @@
 			target = 092F0F2D1A05B474007CDDCC /* ZLSwipeableViewDemo */;
 			targetProxy = 092F0F481A05B474007CDDCC /* PBXContainerItemProxy */;
 		};
-		DC9687C61ABDD1BD00FDF776 /* PBXTargetDependency */ = {
+		DCD3A6451ABDD6C80091A5BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC9687B81ABDD1BD00FDF776 /* ZLSwipeableView */;
-			targetProxy = DC9687C51ABDD1BD00FDF776 /* PBXContainerItemProxy */;
+			target = DCD3A6371ABDD6C80091A5BD /* ZLSwipeableViewFramework */;
+			targetProxy = DCD3A6441ABDD6C80091A5BD /* PBXContainerItemProxy */;
 		};
-		DC9687C81ABDD1BD00FDF776 /* PBXTargetDependency */ = {
+		DCD3A6471ABDD6C80091A5BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 092F0F2D1A05B474007CDDCC /* ZLSwipeableViewDemo */;
-			targetProxy = DC9687C71ABDD1BD00FDF776 /* PBXContainerItemProxy */;
+			targetProxy = DCD3A6461ABDD6C80091A5BD /* PBXContainerItemProxy */;
 		};
-		DC9687CF1ABDD1BD00FDF776 /* PBXTargetDependency */ = {
+		DCD3A64E1ABDD6C80091A5BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC9687B81ABDD1BD00FDF776 /* ZLSwipeableView */;
-			targetProxy = DC9687CE1ABDD1BD00FDF776 /* PBXContainerItemProxy */;
+			target = DCD3A6371ABDD6C80091A5BD /* ZLSwipeableViewFramework */;
+			targetProxy = DCD3A64D1ABDD6C80091A5BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -645,7 +649,7 @@
 			};
 			name = Release;
 		};
-		DC9687D31ABDD1BD00FDF776 /* Debug */ = {
+		DCD3A6521ABDD6C80091A5BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
@@ -657,11 +661,12 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ZLSwipeableView/Info.plist;
+				INFOPLIST_FILE = ZLSwipeableViewFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.2;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -669,7 +674,7 @@
 			};
 			name = Debug;
 		};
-		DC9687D41ABDD1BD00FDF776 /* Release */ = {
+		DCD3A6531ABDD6C80091A5BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -678,11 +683,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ZLSwipeableView/Info.plist;
+				INFOPLIST_FILE = ZLSwipeableViewFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.2;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -690,7 +696,7 @@
 			};
 			name = Release;
 		};
-		DC9687D61ABDD1BD00FDF776 /* Debug */ = {
+		DCD3A6551ABDD6C80091A5BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -701,15 +707,16 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ZLSwipeableViewTests/Info.plist;
+				INFOPLIST_FILE = ZLSwipeableViewFrameworkTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewDemo.app/ZLSwipeableViewDemo";
 			};
 			name = Debug;
 		};
-		DC9687D71ABDD1BD00FDF776 /* Release */ = {
+		DCD3A6561ABDD6C80091A5BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -717,10 +724,11 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ZLSwipeableViewTests/Info.plist;
+				INFOPLIST_FILE = ZLSwipeableViewFrameworkTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewDemo.app/ZLSwipeableViewDemo";
 			};
 			name = Release;
@@ -755,19 +763,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9687D21ABDD1BD00FDF776 /* Build configuration list for PBXNativeTarget "ZLSwipeableView" */ = {
+		DCD3A6511ABDD6C80091A5BD /* Build configuration list for PBXNativeTarget "ZLSwipeableViewFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9687D31ABDD1BD00FDF776 /* Debug */,
-				DC9687D41ABDD1BD00FDF776 /* Release */,
+				DCD3A6521ABDD6C80091A5BD /* Debug */,
+				DCD3A6531ABDD6C80091A5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DC9687D51ABDD1BD00FDF776 /* Build configuration list for PBXNativeTarget "ZLSwipeableViewTests" */ = {
+		DCD3A6541ABDD6C80091A5BD /* Build configuration list for PBXNativeTarget "ZLSwipeableViewFrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9687D61ABDD1BD00FDF776 /* Debug */,
-				DC9687D71ABDD1BD00FDF776 /* Release */,
+				DCD3A6551ABDD6C80091A5BD /* Debug */,
+				DCD3A6561ABDD6C80091A5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

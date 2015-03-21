@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC9687B81ABDD1BD00FDF776"
-               BuildableName = "ZLSwipeableView.framework"
-               BlueprintName = "ZLSwipeableView"
+               BlueprintIdentifier = "DCD3A6371ABDD6C80091A5BD"
+               BuildableName = "ZLSwipeableViewFramework.framework"
+               BlueprintName = "ZLSwipeableViewFramework"
                ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC9687B81ABDD1BD00FDF776"
-            BuildableName = "ZLSwipeableView.framework"
-            BlueprintName = "ZLSwipeableView"
+            BlueprintIdentifier = "DCD3A6371ABDD6C80091A5BD"
+            BuildableName = "ZLSwipeableViewFramework.framework"
+            BlueprintName = "ZLSwipeableViewFramework"
             ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC9687B81ABDD1BD00FDF776"
-            BuildableName = "ZLSwipeableView.framework"
-            BlueprintName = "ZLSwipeableView"
+            BlueprintIdentifier = "DCD3A6371ABDD6C80091A5BD"
+            BuildableName = "ZLSwipeableViewFramework.framework"
+            BlueprintName = "ZLSwipeableViewFramework"
             ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

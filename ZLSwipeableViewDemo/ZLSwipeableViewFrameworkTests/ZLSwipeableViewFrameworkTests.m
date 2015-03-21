@@ -1,6 +1,6 @@
 //
-//  ZLSwipeableViewTests.m
-//  ZLSwipeableViewTests
+//  ZLSwipeableViewFrameworkTests.m
+//  ZLSwipeableViewFrameworkTests
 //
 //  Created by Sidhant Gandhi on 3/21/15.
 //  Copyright (c) 2015 Zhixuan Lai. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface ZLSwipeableViewTests : XCTestCase
+@interface ZLSwipeableViewFrameworkTests : XCTestCase
 
 @end
 
-@implementation ZLSwipeableViewTests
+@implementation ZLSwipeableViewFrameworkTests
 
 - (void)setUp {
     [super setUp];
