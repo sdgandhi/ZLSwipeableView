@@ -19,11 +19,11 @@
 		092F0F661A05C9CA007CDDCC /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F0F651A05C9CA007CDDCC /* UIColor+FlatColors.m */; };
 		092F0F691A05DAF9007CDDCC /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F0F681A05DAF8007CDDCC /* CardView.m */; };
 		0971D4611A08425E00325B8D /* ZLSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971D45F1A08425E00325B8D /* ZLSwipeableView.m */; };
-		DC9687991ABDD05900FDF776 /* SwipableView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9687981ABDD05900FDF776 /* SwipableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC96879F1ABDD05900FDF776 /* SwipableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9687941ABDD05900FDF776 /* SwipableView.framework */; };
-		DC9687A81ABDD05900FDF776 /* SwipableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9687A71ABDD05900FDF776 /* SwipableViewTests.m */; };
-		DC9687AB1ABDD05900FDF776 /* SwipableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9687941ABDD05900FDF776 /* SwipableView.framework */; };
-		DC9687AC1ABDD05900FDF776 /* SwipableView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC9687941ABDD05900FDF776 /* SwipableView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC9687BE1ABDD1BD00FDF776 /* ZLSwipeableView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9687BD1ABDD1BD00FDF776 /* ZLSwipeableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC9687C41ABDD1BD00FDF776 /* ZLSwipeableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */; };
+		DC9687CD1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9687CC1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m */; };
+		DC9687D01ABDD1BD00FDF776 /* ZLSwipeableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */; };
+		DC9687D11ABDD1BD00FDF776 /* ZLSwipeableView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +34,26 @@
 			remoteGlobalIDString = 092F0F2D1A05B474007CDDCC;
 			remoteInfo = ZLSwipeableViewDemo;
 		};
-		DC9687A01ABDD05900FDF776 /* PBXContainerItemProxy */ = {
+		DC9687C51ABDD1BD00FDF776 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 092F0F261A05B474007CDDCC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC9687931ABDD05900FDF776;
-			remoteInfo = SwipableView;
+			remoteGlobalIDString = DC9687B81ABDD1BD00FDF776;
+			remoteInfo = ZLSwipeableView;
 		};
-		DC9687A21ABDD05900FDF776 /* PBXContainerItemProxy */ = {
+		DC9687C71ABDD1BD00FDF776 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 092F0F261A05B474007CDDCC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 092F0F2D1A05B474007CDDCC;
 			remoteInfo = ZLSwipeableViewDemo;
 		};
-		DC9687A91ABDD05900FDF776 /* PBXContainerItemProxy */ = {
+		DC9687CE1ABDD1BD00FDF776 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 092F0F261A05B474007CDDCC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC9687931ABDD05900FDF776;
-			remoteInfo = SwipableView;
+			remoteGlobalIDString = DC9687B81ABDD1BD00FDF776;
+			remoteInfo = ZLSwipeableView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -64,7 +64,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DC9687AC1ABDD05900FDF776 /* SwipableView.framework in Embed Frameworks */,
+				DC9687D11ABDD1BD00FDF776 /* ZLSwipeableView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,12 +94,16 @@
 		092F0F681A05DAF8007CDDCC /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		0971D45E1A08425E00325B8D /* ZLSwipeableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableView.h; sourceTree = "<group>"; };
 		0971D45F1A08425E00325B8D /* ZLSwipeableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeableView.m; sourceTree = "<group>"; };
-		DC9687941ABDD05900FDF776 /* SwipableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9687971ABDD05900FDF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC9687981ABDD05900FDF776 /* SwipableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipableView.h; sourceTree = "<group>"; };
-		DC96879E1ABDD05900FDF776 /* SwipableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9687A61ABDD05900FDF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC9687A71ABDD05900FDF776 /* SwipableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipableViewTests.m; sourceTree = "<group>"; };
+		DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLSwipeableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9687BC1ABDD1BD00FDF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9687BD1ABDD1BD00FDF776 /* ZLSwipeableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableView.h; sourceTree = "<group>"; };
+		DC9687C31ABDD1BD00FDF776 /* ZLSwipeableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLSwipeableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9687CB1ABDD1BD00FDF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9687CC1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeableViewTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9687AB1ABDD05900FDF776 /* SwipableView.framework in Frameworks */,
+				DC9687D01ABDD1BD00FDF776 /* ZLSwipeableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,18 +122,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9687901ABDD05900FDF776 /* Frameworks */ = {
+		DC9687B51ABDD1BD00FDF776 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC96879B1ABDD05900FDF776 /* Frameworks */ = {
+		DC9687C01ABDD1BD00FDF776 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC96879F1ABDD05900FDF776 /* SwipableView.framework in Frameworks */,
+				DC9687C41ABDD1BD00FDF776 /* ZLSwipeableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +147,8 @@
 				092F0F4A1A05B474007CDDCC /* ZLSwipeableViewDemoTests */,
 				DC9687951ABDD05900FDF776 /* SwipableView */,
 				DC9687A41ABDD05900FDF776 /* SwipableViewTests */,
+				DC9687BA1ABDD1BD00FDF776 /* ZLSwipeableView */,
+				DC9687C91ABDD1BD00FDF776 /* ZLSwipeableViewTests */,
 				092F0F2F1A05B474007CDDCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,8 +158,8 @@
 			children = (
 				092F0F2E1A05B474007CDDCC /* ZLSwipeableViewDemo.app */,
 				092F0F471A05B474007CDDCC /* ZLSwipeableViewDemoTests.xctest */,
-				DC9687941ABDD05900FDF776 /* SwipableView.framework */,
-				DC96879E1ABDD05900FDF776 /* SwipableViewTests.xctest */,
+				DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */,
+				DC9687C31ABDD1BD00FDF776 /* ZLSwipeableViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -259,14 +265,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DC9687BA1ABDD1BD00FDF776 /* ZLSwipeableView */ = {
+			isa = PBXGroup;
+			children = (
+				DC9687BD1ABDD1BD00FDF776 /* ZLSwipeableView.h */,
+				DC9687BB1ABDD1BD00FDF776 /* Supporting Files */,
+			);
+			path = ZLSwipeableView;
+			sourceTree = "<group>";
+		};
+		DC9687BB1ABDD1BD00FDF776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9687BC1ABDD1BD00FDF776 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC9687C91ABDD1BD00FDF776 /* ZLSwipeableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC9687CC1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m */,
+				DC9687CA1ABDD1BD00FDF776 /* Supporting Files */,
+			);
+			path = ZLSwipeableViewTests;
+			sourceTree = "<group>";
+		};
+		DC9687CA1ABDD1BD00FDF776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9687CB1ABDD1BD00FDF776 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DC9687911ABDD05900FDF776 /* Headers */ = {
+		DC9687B61ABDD1BD00FDF776 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9687991ABDD05900FDF776 /* SwipableView.h in Headers */,
+				DC9687BE1ABDD1BD00FDF776 /* ZLSwipeableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +325,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DC9687AA1ABDD05900FDF776 /* PBXTargetDependency */,
+				DC9687CF1ABDD1BD00FDF776 /* PBXTargetDependency */,
 			);
 			name = ZLSwipeableViewDemo;
 			productName = ZLSwipeableViewDemo;
@@ -310,41 +350,41 @@
 			productReference = 092F0F471A05B474007CDDCC /* ZLSwipeableViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DC9687931ABDD05900FDF776 /* SwipableView */ = {
+		DC9687B81ABDD1BD00FDF776 /* ZLSwipeableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9687B11ABDD05900FDF776 /* Build configuration list for PBXNativeTarget "SwipableView" */;
+			buildConfigurationList = DC9687D21ABDD1BD00FDF776 /* Build configuration list for PBXNativeTarget "ZLSwipeableView" */;
 			buildPhases = (
-				DC96878F1ABDD05900FDF776 /* Sources */,
-				DC9687901ABDD05900FDF776 /* Frameworks */,
-				DC9687911ABDD05900FDF776 /* Headers */,
-				DC9687921ABDD05900FDF776 /* Resources */,
+				DC9687B41ABDD1BD00FDF776 /* Sources */,
+				DC9687B51ABDD1BD00FDF776 /* Frameworks */,
+				DC9687B61ABDD1BD00FDF776 /* Headers */,
+				DC9687B71ABDD1BD00FDF776 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwipableView;
-			productName = SwipableView;
-			productReference = DC9687941ABDD05900FDF776 /* SwipableView.framework */;
+			name = ZLSwipeableView;
+			productName = ZLSwipeableView;
+			productReference = DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DC96879D1ABDD05900FDF776 /* SwipableViewTests */ = {
+		DC9687C21ABDD1BD00FDF776 /* ZLSwipeableViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9687B31ABDD05900FDF776 /* Build configuration list for PBXNativeTarget "SwipableViewTests" */;
+			buildConfigurationList = DC9687D51ABDD1BD00FDF776 /* Build configuration list for PBXNativeTarget "ZLSwipeableViewTests" */;
 			buildPhases = (
-				DC96879A1ABDD05900FDF776 /* Sources */,
-				DC96879B1ABDD05900FDF776 /* Frameworks */,
-				DC96879C1ABDD05900FDF776 /* Resources */,
+				DC9687BF1ABDD1BD00FDF776 /* Sources */,
+				DC9687C01ABDD1BD00FDF776 /* Frameworks */,
+				DC9687C11ABDD1BD00FDF776 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC9687A11ABDD05900FDF776 /* PBXTargetDependency */,
-				DC9687A31ABDD05900FDF776 /* PBXTargetDependency */,
+				DC9687C61ABDD1BD00FDF776 /* PBXTargetDependency */,
+				DC9687C81ABDD1BD00FDF776 /* PBXTargetDependency */,
 			);
-			name = SwipableViewTests;
-			productName = SwipableViewTests;
-			productReference = DC96879E1ABDD05900FDF776 /* SwipableViewTests.xctest */;
+			name = ZLSwipeableViewTests;
+			productName = ZLSwipeableViewTests;
+			productReference = DC9687C31ABDD1BD00FDF776 /* ZLSwipeableViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -363,10 +403,10 @@
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 092F0F2D1A05B474007CDDCC;
 					};
-					DC9687931ABDD05900FDF776 = {
+					DC9687B81ABDD1BD00FDF776 = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					DC96879D1ABDD05900FDF776 = {
+					DC9687C21ABDD1BD00FDF776 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 092F0F2D1A05B474007CDDCC;
 					};
@@ -387,8 +427,8 @@
 			targets = (
 				092F0F2D1A05B474007CDDCC /* ZLSwipeableViewDemo */,
 				092F0F461A05B474007CDDCC /* ZLSwipeableViewDemoTests */,
-				DC9687931ABDD05900FDF776 /* SwipableView */,
-				DC96879D1ABDD05900FDF776 /* SwipableViewTests */,
+				DC9687B81ABDD1BD00FDF776 /* ZLSwipeableView */,
+				DC9687C21ABDD1BD00FDF776 /* ZLSwipeableViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -412,14 +452,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9687921ABDD05900FDF776 /* Resources */ = {
+		DC9687B71ABDD1BD00FDF776 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC96879C1ABDD05900FDF776 /* Resources */ = {
+		DC9687C11ABDD1BD00FDF776 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,18 +491,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC96878F1ABDD05900FDF776 /* Sources */ = {
+		DC9687B41ABDD1BD00FDF776 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC96879A1ABDD05900FDF776 /* Sources */ = {
+		DC9687BF1ABDD1BD00FDF776 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9687A81ABDD05900FDF776 /* SwipableViewTests.m in Sources */,
+				DC9687CD1ABDD1BD00FDF776 /* ZLSwipeableViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,20 +514,20 @@
 			target = 092F0F2D1A05B474007CDDCC /* ZLSwipeableViewDemo */;
 			targetProxy = 092F0F481A05B474007CDDCC /* PBXContainerItemProxy */;
 		};
-		DC9687A11ABDD05900FDF776 /* PBXTargetDependency */ = {
+		DC9687C61ABDD1BD00FDF776 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC9687931ABDD05900FDF776 /* SwipableView */;
-			targetProxy = DC9687A01ABDD05900FDF776 /* PBXContainerItemProxy */;
+			target = DC9687B81ABDD1BD00FDF776 /* ZLSwipeableView */;
+			targetProxy = DC9687C51ABDD1BD00FDF776 /* PBXContainerItemProxy */;
 		};
-		DC9687A31ABDD05900FDF776 /* PBXTargetDependency */ = {
+		DC9687C81ABDD1BD00FDF776 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 092F0F2D1A05B474007CDDCC /* ZLSwipeableViewDemo */;
-			targetProxy = DC9687A21ABDD05900FDF776 /* PBXContainerItemProxy */;
+			targetProxy = DC9687C71ABDD1BD00FDF776 /* PBXContainerItemProxy */;
 		};
-		DC9687AA1ABDD05900FDF776 /* PBXTargetDependency */ = {
+		DC9687CF1ABDD1BD00FDF776 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC9687931ABDD05900FDF776 /* SwipableView */;
-			targetProxy = DC9687A91ABDD05900FDF776 /* PBXContainerItemProxy */;
+			target = DC9687B81ABDD1BD00FDF776 /* ZLSwipeableView */;
+			targetProxy = DC9687CE1ABDD1BD00FDF776 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -645,7 +685,7 @@
 			};
 			name = Release;
 		};
-		DC9687AD1ABDD05900FDF776 /* Debug */ = {
+		DC9687D31ABDD1BD00FDF776 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
@@ -657,7 +697,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwipableView/Info.plist;
+				INFOPLIST_FILE = ZLSwipeableView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -669,7 +709,7 @@
 			};
 			name = Debug;
 		};
-		DC9687AE1ABDD05900FDF776 /* Release */ = {
+		DC9687D41ABDD1BD00FDF776 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -678,7 +718,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwipableView/Info.plist;
+				INFOPLIST_FILE = ZLSwipeableView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -690,7 +730,7 @@
 			};
 			name = Release;
 		};
-		DC9687AF1ABDD05900FDF776 /* Debug */ = {
+		DC9687D61ABDD1BD00FDF776 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -701,7 +741,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwipableViewTests/Info.plist;
+				INFOPLIST_FILE = ZLSwipeableViewTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -709,7 +749,7 @@
 			};
 			name = Debug;
 		};
-		DC9687B01ABDD05900FDF776 /* Release */ = {
+		DC9687D71ABDD1BD00FDF776 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -717,7 +757,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwipableViewTests/Info.plist;
+				INFOPLIST_FILE = ZLSwipeableViewTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -755,19 +795,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9687B11ABDD05900FDF776 /* Build configuration list for PBXNativeTarget "SwipableView" */ = {
+		DC9687D21ABDD1BD00FDF776 /* Build configuration list for PBXNativeTarget "ZLSwipeableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9687AD1ABDD05900FDF776 /* Debug */,
-				DC9687AE1ABDD05900FDF776 /* Release */,
+				DC9687D31ABDD1BD00FDF776 /* Debug */,
+				DC9687D41ABDD1BD00FDF776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DC9687B31ABDD05900FDF776 /* Build configuration list for PBXNativeTarget "SwipableViewTests" */ = {
+		DC9687D51ABDD1BD00FDF776 /* Build configuration list for PBXNativeTarget "ZLSwipeableViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9687AF1ABDD05900FDF776 /* Debug */,
-				DC9687B01ABDD05900FDF776 /* Release */,
+				DC9687D61ABDD1BD00FDF776 /* Debug */,
+				DC9687D71ABDD1BD00FDF776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
