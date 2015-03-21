@@ -17,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char ZLSwipeableViewFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <ZLSwipeableViewFramework/PublicHeader.h>
 
 #import <ZLSwipeableViewFramework/ZLPanGestureRecognizer.h>
-#import <ZLSwipeableViewZLSwipeableViewFramework/ZLSwipeableView.h>
+#import <ZLSwipeableViewFramework/ZLSwipeableView.h>
