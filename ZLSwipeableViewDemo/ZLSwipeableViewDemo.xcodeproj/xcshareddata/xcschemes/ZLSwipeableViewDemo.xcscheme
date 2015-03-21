@@ -34,6 +34,20 @@
                ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC96879D1ABDD05900FDF776"
+               BuildableName = "SwipableViewTests.xctest"
+               BlueprintName = "SwipableViewTests"
+               ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "092F0F461A05B474007CDDCC"
                BuildableName = "ZLSwipeableViewDemoTests.xctest"
                BlueprintName = "ZLSwipeableViewDemoTests"
+               ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC96879D1ABDD05900FDF776"
+               BuildableName = "SwipableViewTests.xctest"
+               BlueprintName = "SwipableViewTests"
                ReferencedContainer = "container:ZLSwipeableViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -72,7 +96,8 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "092F0F2D1A05B474007CDDCC"
@@ -90,7 +115,8 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "092F0F2D1A05B474007CDDCC"
