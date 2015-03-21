@@ -94,10 +94,6 @@
 		092F0F681A05DAF8007CDDCC /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		0971D45E1A08425E00325B8D /* ZLSwipeableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableView.h; sourceTree = "<group>"; };
 		0971D45F1A08425E00325B8D /* ZLSwipeableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeableView.m; sourceTree = "<group>"; };
-		DC9687971ABDD05900FDF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9687981ABDD05900FDF776 /* SwipableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipableView.h; sourceTree = "<group>"; };
-		DC9687A61ABDD05900FDF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9687A71ABDD05900FDF776 /* SwipableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipableViewTests.m; sourceTree = "<group>"; };
 		DC9687B91ABDD1BD00FDF776 /* ZLSwipeableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLSwipeableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9687BC1ABDD1BD00FDF776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC9687BD1ABDD1BD00FDF776 /* ZLSwipeableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableView.h; sourceTree = "<group>"; };
@@ -145,8 +141,6 @@
 			children = (
 				092F0F301A05B474007CDDCC /* ZLSwipeableViewDemo */,
 				092F0F4A1A05B474007CDDCC /* ZLSwipeableViewDemoTests */,
-				DC9687951ABDD05900FDF776 /* SwipableView */,
-				DC9687A41ABDD05900FDF776 /* SwipableViewTests */,
 				DC9687BA1ABDD1BD00FDF776 /* ZLSwipeableView */,
 				DC9687C91ABDD1BD00FDF776 /* ZLSwipeableViewTests */,
 				092F0F2F1A05B474007CDDCC /* Products */,
@@ -229,40 +223,6 @@
 			);
 			name = ZLSwipeableView;
 			path = ../../ZLSwipeableView;
-			sourceTree = "<group>";
-		};
-		DC9687951ABDD05900FDF776 /* SwipableView */ = {
-			isa = PBXGroup;
-			children = (
-				DC9687981ABDD05900FDF776 /* SwipableView.h */,
-				DC9687961ABDD05900FDF776 /* Supporting Files */,
-			);
-			path = SwipableView;
-			sourceTree = "<group>";
-		};
-		DC9687961ABDD05900FDF776 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC9687971ABDD05900FDF776 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DC9687A41ABDD05900FDF776 /* SwipableViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				DC9687A71ABDD05900FDF776 /* SwipableViewTests.m */,
-				DC9687A51ABDD05900FDF776 /* Supporting Files */,
-			);
-			path = SwipableViewTests;
-			sourceTree = "<group>";
-		};
-		DC9687A51ABDD05900FDF776 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC9687A61ABDD05900FDF776 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DC9687BA1ABDD1BD00FDF776 /* ZLSwipeableView */ = {
@@ -585,10 +545,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.2;
 			};
 			name = Debug;
 		};
@@ -620,9 +580,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -632,7 +592,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZLSwipeableViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -644,7 +604,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZLSwipeableViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -699,7 +659,7 @@
 				);
 				INFOPLIST_FILE = ZLSwipeableView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -720,7 +680,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZLSwipeableView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -742,7 +702,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ZLSwipeableViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewDemo.app/ZLSwipeableViewDemo";
@@ -758,7 +718,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ZLSwipeableViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewDemo.app/ZLSwipeableViewDemo";
